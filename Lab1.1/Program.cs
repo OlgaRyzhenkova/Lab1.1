@@ -94,9 +94,7 @@ namespace Lab11
                 side = 1;
             }
             TETriangle t = new TETriangle(side);
-            Console.WriteLine("Рівносторонній трикутник: Сторона = " + t.Side +
-                ", Периметр = " + t.Perimeter() +
-                ", Площа = " + t.Area());
+            t.Print();
 
             Console.Write("Введіть висоту піраміди: ");
             double height;
@@ -106,11 +104,7 @@ namespace Lab11
                 height = 1;
             }
             TEPyramid pyramid = new TEPyramid(t, height);
-            Console.WriteLine("Трикутна піраміда: Сторона основи = " + pyramid.Side +
-                ", Висота = " + pyramid.Height +
-                ", Площа основи = " + pyramid.Area() +
-                ", Периметр основи = " + pyramid.Perimeter() +
-                ", Об'єм = " + pyramid.Volume());
+            pyramid.Print();
         }
 
         static int ReadPositiveInt(string prompt, int defaultValue)

@@ -72,7 +72,7 @@ namespace Lab11
 
         public override string ToString()
         {
-            return "Side = " + side + ", Perimeter = " + Perimeter() + ", Area = " + Area();
+            return "Сторона = " + side + ", Периметр = " + Perimeter() + ", Площа = " + Area();
         }
 
         public static bool operator ==(TETriangle t1, TETriangle t2)

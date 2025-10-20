@@ -67,7 +67,7 @@ namespace Lab11.Tests
         {
             var t = new TETriangle(5);
             var str = t.ToString();
-            Assert.Contains("Side", str);
+            Assert.Contains("Сторона", str);
         }
     }
 
@@ -102,8 +102,8 @@ namespace Lab11.Tests
         {
             var p = new TEPyramid(2, 3);
             var str = p.ToString();
-            Assert.Contains("Height", str);
-            Assert.Contains("Volume", str);
+            Assert.Contains("Висота", str);
+            Assert.Contains("Об'єм", str);
         }
 
         [Fact]

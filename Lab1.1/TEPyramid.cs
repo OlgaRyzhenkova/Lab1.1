@@ -44,7 +44,7 @@ namespace Lab11
 
         public override string ToString()
         {
-            return base.ToString() + ", Height = " + height + ", Volume = " + Volume();
+            return base.ToString() + ", Висота = " + height + ", Об'єм = " + Volume();
         }
     }
 }
